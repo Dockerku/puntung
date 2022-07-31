@@ -18,4 +18,4 @@ ADD run.sh .
 RUN mv run.sh /bin/run.sh
 RUN chmod +x /bin/run.sh
 USER root
-CMD ["bash run.sh"]
+CMD ["run.sh"]
